@@ -2,10 +2,16 @@
 //
 
 #include <iostream>
+#include "player/player.h"
+#include "gameServer.h"
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    GameServer server;
+
+    server.run();
+    
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
